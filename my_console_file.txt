@@ -1,0 +1,512 @@
+--------------------------------------------------------------
+----- Class/Module Analysis of attendee-profiler-master\1.faceDetection.py & Attendance-using-Face-master\1.face_detection.py -----
+
+Classes/Modules identified in attendee-profiler-master\1.faceDetection.py
+1. attendee-profiler-master\1.faceDetection.py
+
+Classes/Modules identified in Attendance-using-Face-master\1.face_detection.py
+1. Attendance-using-Face-master\1.face_detection.py
+
+Similar Class/Module Report :
+[NOTE: Two classes are said to be similar if any function structures are identified to be similar
+, i.e. a similar report for two classes does not necessarily mean that all functions are similar]
+, and a not similar report ensures that no functions were identified as similar
+
+
+Classes/Modules Identified as Similar
+
+
+----- Function/Method Analysis of attendee-profiler-master\1.faceDetection.py & Attendance-using-Face-master\1.face_detection.py -----
+
+Functions identified in attendee-profiler-master\1.faceDetection.py:
+1. detect
+2. Face_Detection
+
+More information about functions in attendee-profiler-master\1.faceDetection.py:
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. detect	['filename']	['resized_img', 'dimensions']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Constant', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Store', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load', 'Tuple', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Constant', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Constant', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load', 'Tuple', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Constant', 'Load', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant']	
+2. Face_Detection	['self', 'image_file']	['resized_img', 'dimensions']	['FunctionDef', 'arguments', 'arg', 'arg', 'Assign', 'Name', 'Store', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Constant', 'Assign', 'Name', 'Store', 'List', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'For', 'Tuple', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Attribute', 'Name', 'Load', 'Load', 'Add', 'Attribute', 'Name', 'Load', 'Load', 'Slice', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Attribute', 'Name', 'Load', 'Load', 'Add', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'List', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+
+Functions identified in Attendance-using-Face-master\1.face_detection.py:
+1. __init__
+2. detectFace
+
+More information about functions in Attendance-using-Face-master\1.face_detection.py:
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. __init__	['self']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Attribute', 'Name', 'Load', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Attribute', 'Name', 'Load', 'Store', 'Constant', 'Assign', 'Attribute', 'Name', 'Load', 'Store', 'Constant', 'Assign', 'Attribute', 'Name', 'Load', 'Store', 'Constant', 'Assign', 'Attribute', 'Name', 'Load', 'Store', 'Constant']	
+2. detectFace	['self', 'img']	['cropped', 'coor']	['FunctionDef', 'arguments', 'arg', 'arg', 'Assign', 'Name', 'Store', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Constant', 'Assign', 'Name', 'Store', 'List', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'For', 'Tuple', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Attribute', 'Name', 'Load', 'Load', 'Add', 'Attribute', 'Name', 'Load', 'Load', 'Slice', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Attribute', 'Name', 'Load', 'Load', 'Add', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'List', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+
+Similar Function/Method Report :
+[NOTE: Two functions are said to be similar their function structures are identified to be similar
+,i.e Two functions with differing names, arguments and return type can be similar if they have similar body statements
+
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. Face_Detection	['self', 'image_file']	['resized_img', 'dimensions']	['FunctionDef', 'arguments', 'arg', 'arg', 'Assign', 'Name', 'Store', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Constant', 'Assign', 'Name', 'Store', 'List', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'For', 'Tuple', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Attribute', 'Name', 'Load', 'Load', 'Add', 'Attribute', 'Name', 'Load', 'Load', 'Slice', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Attribute', 'Name', 'Load', 'Load', 'Add', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'List', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+detectFace	['self', 'img']	['cropped', 'coor']	['FunctionDef', 'arguments', 'arg', 'arg', 'Assign', 'Name', 'Store', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Constant', 'Assign', 'Name', 'Store', 'List', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'For', 'Tuple', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Attribute', 'Name', 'Load', 'Load', 'Add', 'Attribute', 'Name', 'Load', 'Load', 'Slice', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Attribute', 'Name', 'Load', 'Load', 'Add', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'List', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+
+----- Dependency Graph Analysis of attendee-profiler-master\1.faceDetection.py & Attendance-using-Face-master\1.face_detection.py -----
+
+Imports identified in attendee-profiler-master\1.faceDetection.py
+1. cv2
+2. numpy
+3. get_img
+
+Imports identified in Attendance-using-Face-master\1.face_detection.py
+1. cv2
+2. numpy
+
+Similar Imports Report :
+1. cv2
+2. numpy
+
+Incoming from imports identified in attendee-profiler-master\1.faceDetection.py
+1. emb
+
+Incoming from imports identified in Attendance-using-Face-master\1.face_detection.py
+1. DenseArchs
+2. emb
+
+Similar Imports Report :
+1. emb
+
+----- Comment Analysis of attendee-profiler-master\1.faceDetection.py & Attendance-using-Face-master\1.face_detection.py -----
+
+Comments Identified in attendee-profiler-master\1.faceDetection.py
+1. # -*- coding: utf-8 -*-
+2. #generates coordinated img values
+3. #detects core features in image
+
+Comments Identified in Attendance-using-Face-master\1.face_detection.py
+1. #initializes the coordinates required
+2. #generates coordinated img values
+
+Comments Identified as Common : 
+1. #generates coordinated img values
+
+
+----- KMP Analysis of attendee-profiler-master\1.faceDetection.py & Attendance-using-Face-master\1.face_detection.py -----
+
+Common Lines Identified:
+from embedding import emb
+cropped=None
+import numpy
+#generates coordinated img values
+faces=self.cascade.detectMultiScale(grey,1.3,5)
+for (self.x,self.y,self.w,self.h) in faces:
+import cv2
+
+
+
+--------------------------------------------------------------
+----- Class/Module Analysis of attendee-profiler-master\2.faceRec.py & Attendance-using-Face-master\2.recognizer.py -----
+
+Classes/Modules identified in attendee-profiler-master\2.faceRec.py
+1. attendee-profiler-master\2.faceRec.py
+
+Classes/Modules identified in Attendance-using-Face-master\2.recognizer.py
+1. Attendance-using-Face-master\2.recognizer.py
+
+Similar Class/Module Report :
+[NOTE: Two classes are said to be similar if any function structures are identified to be similar
+, i.e. a similar report for two classes does not necessarily mean that all functions are similar]
+, and a not similar report ensures that no functions were identified as similar
+
+
+Classes/Modules Identified as Similar
+
+
+----- Function/Method Analysis of attendee-profiler-master\2.faceRec.py & Attendance-using-Face-master\2.recognizer.py -----
+
+Functions identified in attendee-profiler-master\2.faceRec.py:
+1. FindFace
+2. save
+3. assurePath
+4. attendanceSheet
+5. face_rec
+
+More information about functions in attendee-profiler-master\2.faceRec.py:
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. FindFace	['self', 'img']	['cropped', 'coor']	['FunctionDef', 'arguments', 'arg', 'arg', 'Assign', 'Name', 'Store', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Constant', 'Assign', 'Name', 'Store', 'List', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'For', 'Tuple', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Attribute', 'Name', 'Load', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Attribute', 'Name', 'Load', 'Load', 'Add', 'Attribute', 'Name', 'Load', 'Load', 'Slice', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Attribute', 'Name', 'Load', 'Load', 'Add', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'List', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+2. save	['newvar', 'screen']	['cropped', 'coor']	['FunctionDef', 'arguments', 'arg', 'arg', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Assign', 'Name', 'Store', 'BinOp', 'BinOp', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'If', 'Compare', 'Call', 'Name', 'Load', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Eq', 'Constant', 'Assign', 'Name', 'Store', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Assign', 'Name', 'Store', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Call', 'Attribute', 'Name', 'Load', 'Load']	
+3. assurePath	['path']	['cropped', 'coor']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'If', 'UnaryOp', 'Not', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load']	
+4. attendanceSheet	['present', 'details']	['cropped', 'coor']	['FunctionDef', 'arguments', 'arg', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Global', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Tuple', 'Constant', 'Constant', 'Load', 'keyword', 'Constant', 'Load', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Name', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Tuple', 'Constant', 'Constant', 'Constant', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Lambda', 'arguments', 'Call', 'Name', 'Load', 'Dict', 'Name', 'Load', 'Name', 'Load', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'Load', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Tuple', 'Constant', 'Constant', 'Load', 'keyword', 'Constant', 'Load', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Tuple', 'Constant', 'Constant', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Tuple', 'Constant', 'Constant', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Tuple', 'Constant', 'Constant', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Constant', 'keyword', 'Tuple', 'Constant', 'Constant', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'For', 'Name', 'Store', 'Name', 'Load', 'Assign', 'Subscript', 'Name', 'Load', 'Index', 'Name', 'Load', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Constant', 'Assign', 'Name', 'Store', 'BinOp', 'BinOp', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'For', 'Name', 'Store', 'Name', 'Load', 'Assign', 'Subscript', 'Name', 'Load', 'Index', 'Name', 'Load', 'Store', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Constant', 'For', 'Name', 'Store', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Constant', 'Assign', 'Name', 'Store', 'BinOp', 'BinOp', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'BinOp', 'BinOp', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Subscript', 'Name', 'Load', 'Index', 'Name', 'Load', 'Load', 'keyword', 'Subscript', 'Name', 'Load', 'Index', 'Name', 'Load', 'Load', 'keyword', 'Constant', 'Load', 'keyword', 'Constant', 'keyword', 'BinOp', 'Constant', 'Add', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'Call', 'Name', 'Load', 'Call', 'Name', 'Load', 'BinOp', 'BinOp', 'Subscript', 'Name', 'Load', 'Index', 'Constant', 'Load', 'Div', 'Subscript', 'Name', 'Load', 'Index', 'Constant', 'Load', 'Mult', 'Constant', 'Constant', 'keyword', 'Constant', 'keyword', 'Tuple', 'Constant', 'Constant', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'BinOp', 'Constant', 'Add', 'Name', 'Load', 'AugAssign', 'Name', 'Store', 'Add', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'If', 'Compare', 'Attribute', 'Name', 'Load', 'Load', 'Eq', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Store', 'Name', 'Load', 'If', 'Compare', 'Call', 'Name', 'Load', 'Name', 'Load', 'NotIn', 'Name', 'Load', 'Assign', 'Subscript', 'Name', 'Load', 'Index', 'Name', 'Load', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Subscript', 'Name', 'Load', 'Index', 'Name', 'Load', 'Store', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Constant', 'For', 'Name', 'Store', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Constant', 'Assign', 'Name', 'Store', 'BinOp', 'BinOp', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'BinOp', 'BinOp', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Subscript', 'Name', 'Load', 'Index', 'Name', 'Load', 'Load', 'keyword', 'Subscript', 'Name', 'Load', 'Index', 'Name', 'Load', 'Load', 'keyword', 'Constant', 'Load', 'keyword', 'Constant', 'keyword', 'BinOp', 'Constant', 'Add', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'Call', 'Name', 'Load', 'Call', 'Name', 'Load', 'BinOp', 'BinOp', 'Subscript', 'Name', 'Load', 'Index', 'Constant', 'Load', 'Div', 'Subscript', 'Name', 'Load', 'Index', 'Constant', 'Load', 'Mult', 'Constant', 'Constant', 'keyword', 'Constant', 'keyword', 'Tuple', 'Constant', 'Constant', 'Load', 'Load', 'keyword', 'Constant', 'keyword', 'BinOp', 'Constant', 'Add', 'Name', 'Load', 'AugAssign', 'Name', 'Store', 'Add', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load']	
+5. face_rec	['year', 'course', 'branch', 'section', 'screen']	['cropped', 'coor']	['FunctionDef', 'arguments', 'arg', 'arg', 'arg', 'arg', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Assign', 'Name', 'Store', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Assign', 'Name', 'Store', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Expr', 'Call', 'Name', 'Load', 'Name', 'Load', 'Try', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Constant', 'ExceptHandler', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Try', 'While', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Call', 'Name', 'Load', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'UnaryOp', 'USub', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Constant', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Tuple', 'BinOp', 'Name', 'Load', 'Sub', 'Constant', 'BinOp', 'Name', 'Load', 'Sub', 'Constant', 'Load', 'Tuple', 'BinOp', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Add', 'Constant', 'BinOp', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Load', 'Tuple', 'Constant', 'Constant', 'Constant', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Load', 'keyword', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Tuple', 'BinOp', 'Name', 'Load', 'Sub', 'Constant', 'BinOp', 'Name', 'Load', 'Sub', 'Constant', 'Load', 'Tuple', 'BinOp', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Add', 'Constant', 'BinOp', 'Name', 'Load', 'Sub', 'Constant', 'Load', 'Tuple', 'Constant', 'Constant', 'Constant', 'Load', 'UnaryOp', 'USub', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'BinOp', 'BinOp', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Call', 'Name', 'Load', 'Name', 'Load', 'Constant', 'Tuple', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Sub', 'Constant', 'Load', 'Name', 'Load', 'Constant', 'Tuple', 'Constant', 'Constant', 'Constant', 'Load', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Name', 'Load', 'If', 'Compare', 'BinOp', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'BitAnd', 'Constant', 'Eq', 'Call', 'Name', 'Load', 'Constant', 'Break', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Name', 'Load', 'Name', 'Load', 'Name', 'Load', 'ExceptHandler', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Name', 'Load']	
+
+Functions identified in Attendance-using-Face-master\2.recognizer.py:
+1. test
+2. pathExist
+
+More information about functions in Attendance-using-Face-master\2.recognizer.py:
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. test	[]	['FunctionDef', 'arguments', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Tuple', 'Constant', 'Constant', 'Load', 'Assign', 'Name', 'Store', 'BinOp', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Div', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'keyword', 'Constant', 'Assign', 'Name', 'Store', 'Subscript', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Index', 'Constant', 'Load']	
+2. pathExist	['filepath']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'If', 'UnaryOp', 'Not', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load']	
+
+Similar Function/Method Report :
+[NOTE: Two functions are said to be similar their function structures are identified to be similar
+,i.e Two functions with differing names, arguments and return type can be similar if they have similar body statements
+
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. assurePath	['path']	['cropped', 'coor']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'If', 'UnaryOp', 'Not', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load']	
+pathExist	['filepath']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'If', 'UnaryOp', 'Not', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load']	
+
+----- Dependency Graph Analysis of attendee-profiler-master\2.faceRec.py & Attendance-using-Face-master\2.recognizer.py -----
+
+Imports identified in attendee-profiler-master\2.faceRec.py
+1. os
+2. cv2
+3. urllib
+4. tkinter
+5. numpy
+6. mysql.connector
+7. datetime
+8. log2
+
+Imports identified in Attendance-using-Face-master\2.recognizer.py
+1. os
+2. cv2
+3. numpy
+
+Similar Imports Report :
+1. os
+2. cv2
+3. numpy
+
+Incoming from imports identified in attendee-profiler-master\2.faceRec.py
+1. messagebox
+
+Incoming from imports identified in Attendance-using-Face-master\2.recognizer.py
+1. face
+2. load_model
+3. emb
+
+Similar Imports Report :
+None found
+
+----- Comment Analysis of attendee-profiler-master\2.faceRec.py & Attendance-using-Face-master\2.recognizer.py -----
+
+Comments Identified in attendee-profiler-master\2.faceRec.py
+1. # -*- coding: utf-8 -*-
+2. #start
+3. #end
+4. # Numpy to convert into a array
+5. # Decode the array to OpenCV usable format
+
+Comments Identified in Attendance-using-Face-master\2.recognizer.py
+1. #from retreive_pymongo_data import database
+2. #data=database()
+3. #data.view()
+4. #test_run=np.rollaxis(test_run,2,0)
+5. #detected=np.rollaxis(detected,2,0)
+6. #data.update(label)
+7. #if(abhi is not None):
+8. #if(a[abhi]==1):
+9. #cv2.putText(frame,"your attendance is complete",(x,y-30),cv2.FONT_HERSHEY_SIMPLEX,1,(255,255,255),2)
+
+Comments Identified as Common : 
+None found
+
+----- KMP Analysis of attendee-profiler-master\2.faceRec.py & Attendance-using-Face-master\2.recognizer.py -----
+
+Common Lines Identified:
+import numpy as np
+break
+else:
+cv2.destroyAllWindows()
+os.makedirs(dir)
+import os
+import cv2
+
+
+
+--------------------------------------------------------------
+----- Class/Module Analysis of attendee-profiler-master\3.trainer.py & Attendance-using-Face-master\3.trainer.py -----
+
+Classes/Modules identified in attendee-profiler-master\3.trainer.py
+1. attendee-profiler-master\3.trainer.py
+
+Classes/Modules identified in Attendance-using-Face-master\3.trainer.py
+1. Attendance-using-Face-master\3.trainer.py
+
+Similar Class/Module Report :
+[NOTE: Two classes are said to be similar if any function structures are identified to be similar
+, i.e. a similar report for two classes does not necessarily mean that all functions are similar]
+, and a not similar report ensures that no functions were identified as similar
+
+
+Classes/Modules Identified as Similar
+
+
+----- Function/Method Analysis of attendee-profiler-master\3.trainer.py & Attendance-using-Face-master\3.trainer.py -----
+
+Functions identified in attendee-profiler-master\3.trainer.py:
+1. assurePath
+2. getImageAndLabel
+3. train
+
+More information about functions in attendee-profiler-master\3.trainer.py:
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. assurePath	['path']	['faceSamples', 'ids']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'If', 'UnaryOp', 'Not', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load']	
+2. getImageAndLabel	['path']	['faceSamples', 'ids']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Expr', 'Call', 'Name', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'ListComp', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Name', 'Load', 'comprehension', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'For', 'Name', 'Store', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'Subscript', 'Call', 'Attribute', 'Subscript', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Index', 'UnaryOp', 'USub', 'Constant', 'Load', 'Load', 'Constant', 'Index', 'Constant', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+3. train	['year', 'course', 'branch', 'section']	['faceSamples', 'ids']	['FunctionDef', 'arguments', 'arg', 'arg', 'arg', 'arg', 'Try', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Assign', 'Name', 'Store', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Assign', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Store', 'Call', 'Name', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Name', 'Load', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'BinOp', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Add', 'Name', 'Load', 'Add', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Constant', 'ExceptHandler', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Name', 'Load']	
+
+Functions identified in Attendance-using-Face-master\3.trainer.py:
+1. tag_image
+
+More information about functions in Attendance-using-Face-master\3.trainer.py:
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. tag_image	['loc']	['rawimg', 'tag_value']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Expr', 'Call', 'Name', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'ListComp', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Name', 'Load', 'comprehension', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'For', 'Name', 'Store', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'Subscript', 'Call', 'Attribute', 'Subscript', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Index', 'UnaryOp', 'USub', 'Constant', 'Load', 'Load', 'Constant', 'Index', 'Constant', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+
+Similar Function/Method Report :
+[NOTE: Two functions are said to be similar their function structures are identified to be similar
+,i.e Two functions with differing names, arguments and return type can be similar if they have similar body statements
+
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. getImageAndLabel	['path']	['faceSamples', 'ids']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Expr', 'Call', 'Name', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'ListComp', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Name', 'Load', 'comprehension', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'For', 'Name', 'Store', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'Subscript', 'Call', 'Attribute', 'Subscript', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Index', 'UnaryOp', 'USub', 'Constant', 'Load', 'Load', 'Constant', 'Index', 'Constant', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+tag_image	['loc']	['rawimg', 'tag_value']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Expr', 'Call', 'Name', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'ListComp', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Name', 'Load', 'comprehension', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'Assign', 'Name', 'Store', 'List', 'Load', 'For', 'Name', 'Store', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'Subscript', 'Call', 'Attribute', 'Subscript', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Index', 'UnaryOp', 'USub', 'Constant', 'Load', 'Load', 'Constant', 'Index', 'Constant', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+
+----- Dependency Graph Analysis of attendee-profiler-master\3.trainer.py & Attendance-using-Face-master\3.trainer.py -----
+
+Imports identified in attendee-profiler-master\3.trainer.py
+1. cv2
+2. os
+3. numpy
+
+Imports identified in Attendance-using-Face-master\3.trainer.py
+1. cv2
+2. numpy
+3. os
+
+Similar Imports Report :
+1. cv2
+2. os
+3. numpy
+
+Incoming from imports identified in attendee-profiler-master\3.trainer.py
+1. messagebox
+2. Image
+
+Incoming from imports identified in Attendance-using-Face-master\3.trainer.py
+1. Image
+2. DenseArchs
+3. emb
+4. Adam
+5. train_test_split
+6. to_categorical
+7. assurePath
+
+Similar Imports Report :
+1. Image
+
+----- Comment Analysis of attendee-profiler-master\3.trainer.py & Attendance-using-Face-master\3.trainer.py -----
+
+Comments Identified in attendee-profiler-master\3.trainer.py
+1. # -*- coding: utf-8 -*-
+
+Comments Identified in Attendance-using-Face-master\3.trainer.py
+None found
+
+Comments Identified as Common : 
+None found
+
+----- KMP Analysis of attendee-profiler-master\3.trainer.py & Attendance-using-Face-master\3.trainer.py -----
+
+Common Lines Identified:
+import numpy as np
+for imagePath in imagePaths:
+import os
+import cv2
+
+
+
+--------------------------------------------------------------
+----- Class/Module Analysis of attendee-profiler-master\4.generateDataSet.py & Attendance-using-Face-master\4.Generating_training_data.py -----
+
+Classes/Modules identified in attendee-profiler-master\4.generateDataSet.py
+1. attendee-profiler-master\4.generateDataSet.py
+
+Classes/Modules identified in Attendance-using-Face-master\4.Generating_training_data.py
+1. Attendance-using-Face-master\4.Generating_training_data.py
+
+Similar Class/Module Report :
+[NOTE: Two classes are said to be similar if any function structures are identified to be similar
+, i.e. a similar report for two classes does not necessarily mean that all functions are similar]
+, and a not similar report ensures that no functions were identified as similar
+
+Classes/Modules Identified as Not Similar
+
+
+----- Function/Method Analysis of attendee-profiler-master\4.generateDataSet.py & Attendance-using-Face-master\4.Generating_training_data.py -----
+
+Functions identified in attendee-profiler-master\4.generateDataSet.py:
+1. generate
+
+More information about functions in attendee-profiler-master\4.generateDataSet.py:
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. generate	['screen']	['FunctionDef', 'arguments', 'arg', 'Constant', 'Assign', 'Name', 'Store', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Constant', 'While', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Attribute', 'Name', 'Load', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Call', 'Name', 'Load', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'keyword', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'UnaryOp', 'USub', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Constant', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load', 'Tuple', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Constant', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Load', 'Assign', 'Name', 'Store', 'BinOp', 'Name', 'Load', 'Add', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'BinOp', 'BinOp', 'Constant', 'Add', 'Call', 'Name', 'Load', 'Name', 'Load', 'Add', 'Constant', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Constant', 'Constant', 'For', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Name', 'Store', 'Store', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Subscript', 'Name', 'Load', 'ExtSlice', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Slice', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load', 'Tuple', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'BinOp', 'Name', 'Load', 'Add', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Constant', 'Load', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Name', 'Load', 'If', 'Compare', 'BinOp', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Call', 'Name', 'Load', 'BinOp', 'Constant', 'Div', 'Constant', 'BitAnd', 'Constant', 'Eq', 'Call', 'Name', 'Load', 'Constant', 'Break', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load']	
+
+Functions identified in Attendance-using-Face-master\4.Generating_training_data.py:
+None found
+
+More information about functions in Attendance-using-Face-master\4.Generating_training_data.py:
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+None found
+
+Similar Function/Method Report :
+[NOTE: Two functions are said to be similar their function structures are identified to be similar
+,i.e Two functions with differing names, arguments and return type can be similar if they have similar body statements
+
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+None found
+
+----- Dependency Graph Analysis of attendee-profiler-master\4.generateDataSet.py & Attendance-using-Face-master\4.Generating_training_data.py -----
+
+Imports identified in attendee-profiler-master\4.generateDataSet.py
+1. cv2
+2. numpy
+3. urllib
+4. tkinter
+
+Imports identified in Attendance-using-Face-master\4.Generating_training_data.py
+1. cv2
+2. numpy
+3. os
+
+Similar Imports Report :
+1. cv2
+2. numpy
+
+Incoming from imports identified in attendee-profiler-master\4.generateDataSet.py
+1. messagebox
+
+Incoming from imports identified in Attendance-using-Face-master\4.Generating_training_data.py
+None found
+
+Similar Imports Report :
+None found
+
+----- Comment Analysis of attendee-profiler-master\4.generateDataSet.py & Attendance-using-Face-master\4.Generating_training_data.py -----
+
+Comments Identified in attendee-profiler-master\4.generateDataSet.py
+1. # Numpy to convert into a array
+2. # Decode the array to OpenCV usable format
+
+Comments Identified in Attendance-using-Face-master\4.Generating_training_data.py
+None found
+
+Comments Identified as Common : 
+None found
+
+----- KMP Analysis of attendee-profiler-master\4.generateDataSet.py & Attendance-using-Face-master\4.Generating_training_data.py -----
+
+Common Lines Identified:
+break
+import numpy as np
+cv2.destroyAllWindows()
+import cv2
+
+
+
+--------------------------------------------------------------
+----- Class/Module Analysis of attendee-profiler-master\5.colorTracker.py & Attendance-using-Face-master\5.align.py -----
+
+Classes/Modules identified in attendee-profiler-master\5.colorTracker.py
+1. attendee-profiler-master\5.colorTracker.py
+
+Classes/Modules identified in Attendance-using-Face-master\5.align.py
+1. Attendance-using-Face-master\5.align.py
+
+Similar Class/Module Report :
+[NOTE: Two classes are said to be similar if any function structures are identified to be similar
+, i.e. a similar report for two classes does not necessarily mean that all functions are similar]
+, and a not similar report ensures that no functions were identified as similar
+
+Classes/Modules Identified as Not Similar
+
+
+----- Function/Method Analysis of attendee-profiler-master\5.colorTracker.py & Attendance-using-Face-master\5.align.py -----
+
+Functions identified in attendee-profiler-master\5.colorTracker.py:
+1. menu
+
+More information about functions in attendee-profiler-master\5.colorTracker.py:
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. menu	[]	['FunctionDef', 'arguments', 'Assign', 'Name', 'Store', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'If', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Constant', 'While', 'Name', 'Load', 'Assign', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'List', 'Constant', 'Constant', 'Constant', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'List', 'Constant', 'Constant', 'Constant', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Name', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Name', 'Load', 'keyword', 'Name', 'Load', 'Expr', 'Call', 'Name', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Name', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Name', 'Load', 'If', 'Compare', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Eq', 'Constant', 'Break', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load']	
+
+Functions identified in Attendance-using-Face-master\5.align.py:
+1. __init__
+2. tup
+3. Al
+
+More information about functions in Attendance-using-Face-master\5.align.py:
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+1. __init__	['self']	['FunctionDef', 'arguments', 'arg', 'Assign', 'Attribute', 'Name', 'Load', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant']	
+2. tup	['self', 'a', 'b', 'c', 'd']	['i', 'j']	['FunctionDef', 'arguments', 'arg', 'arg', 'arg', 'arg', 'arg', 'Assign', 'Name', 'Store', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Name', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+3. Al	['self', 'faces']	['faces', 'angle']	['FunctionDef', 'arguments', 'arg', 'arg', 'Assign', 'Tuple', 'Name', 'Store', 'Name', 'Store', 'Store', 'Subscript', 'Attribute', 'Name', 'Load', 'Load', 'Slice', 'Constant', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Attribute', 'Name', 'Load', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Constant', 'Name', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Name', 'Load', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'BinOp', 'BinOp', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Load', 'Add', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Load', 'Div', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'BinOp', 'BinOp', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Load', 'Add', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Load', 'Div', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'BinOp', 'BinOp', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Load', 'Add', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Load', 'Div', 'Constant', 'Assign', 'Name', 'Store', 'Call', 'Name', 'Load', 'BinOp', 'BinOp', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Load', 'Add', 'Attribute', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Constant', 'Load', 'Div', 'Constant', 'Expr', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load', 'Tuple', 'Constant', 'Constant', 'Constant', 'Load', 'Constant', 'Assign', 'Name', 'Store', 'BinOp', 'Name', 'Load', 'Sub', 'Name', 'Load', 'Assign', 'Name', 'Store', 'BinOp', 'Name', 'Load', 'Sub', 'Name', 'Load', 'Assign', 'Name', 'Store', 'BinOp', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Call', 'Attribute', 'Name', 'Load', 'Load', 'Name', 'Load', 'Name', 'Load', 'Sub', 'Constant', 'Expr', 'Call', 'Name', 'Load', 'Name', 'Load', 'Return', 'Tuple', 'Name', 'Load', 'Name', 'Load', 'Load']	
+
+Similar Function/Method Report :
+[NOTE: Two functions are said to be similar their function structures are identified to be similar
+,i.e Two functions with differing names, arguments and return type can be similar if they have similar body statements
+
+Fn Name			 Arguments			Return Type			Function Abstract Definition
+None found
+
+----- Dependency Graph Analysis of attendee-profiler-master\5.colorTracker.py & Attendance-using-Face-master\5.align.py -----
+
+Imports identified in attendee-profiler-master\5.colorTracker.py
+1. cv2
+2. numpy
+
+Imports identified in Attendance-using-Face-master\5.align.py
+1. cv2
+2. dlib
+3. numpy
+
+Similar Imports Report :
+1. cv2
+2. numpy
+
+Incoming from imports identified in attendee-profiler-master\5.colorTracker.py
+None found
+
+Incoming from imports identified in Attendance-using-Face-master\5.align.py
+None found
+
+Similar Imports Report :
+None found
+
+----- Comment Analysis of attendee-profiler-master\5.colorTracker.py & Attendance-using-Face-master\5.align.py -----
+
+Comments Identified in attendee-profiler-master\5.colorTracker.py
+1. # -*- coding: utf-8 -*-
+2. #BLUE COLOR
+
+Comments Identified in Attendance-using-Face-master\5.align.py
+1. #for i in range(68):
+2. #cv2.circle(faces,(features.part(i).x,features.part(i).y),2,(255,0,0),-2)
+#cv2.putText(faces,str(i),(features.part(i).x,features.part(i).y),cv2.FONT_HERSHEY_SIMPLEX,0.25,(0,255,0),1)
+
+Comments Identified as Common : 
+None found
+
+----- KMP Analysis of attendee-profiler-master\5.colorTracker.py & Attendance-using-Face-master\5.align.py -----
+
+Common Lines Identified:
+import numpy as np
+import cv2
+
+
+
+----- Repopal Stargazer Analysis -----
+
+Report:
+user1 had starred both the projects at Sun May 24 02:51:18 1970
+
+----- KMP Analysis of attendee-profiler-master/README.md & Attendance-using-Face-master/README.md -----
+
+Common Lines Identified:
+Facial Attendence
+storing the Attendance
+Database (MySQL)
+
+
+
